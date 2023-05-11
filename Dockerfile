@@ -16,10 +16,10 @@ RUN apk update \
 
     && tar -zxvf ./cloudreve_3.7.1_linux_amd64.tar.gz \
 
-    && chmod +x ./cloudreve_3.7.1_linux_amd64/cloudreve
+    && chmod +x ./cloudreve
 
     
 
 EXPOSE 5212
 
-ENTRYPOINT ["./cloudreve_3.7.1_linux_amd64/cloudreve"]
+ENTRYPOINT ["./cloudreve"]
