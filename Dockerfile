@@ -20,6 +20,4 @@ RUN apk update \
 
 EXPOSE 5212
 
-VOLUME ["/cloudreve/uploads", "/cloudreve/avatar", "/data"]
-
 ENTRYPOINT ["./cloudreve"]
