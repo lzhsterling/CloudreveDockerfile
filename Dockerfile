@@ -18,8 +18,6 @@ RUN apk update \
 
     && chmod +x ./cloudreve
 
-    
-
 EXPOSE 5212
 
 ENTRYPOINT ["./cloudreve"]
