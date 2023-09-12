@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM alpine:latest
 
 ADD conf.ini /root/cloudreve/conf.ini
 # 付费版需要下载许可证，删除下方的#
